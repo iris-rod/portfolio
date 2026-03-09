@@ -6,25 +6,14 @@ layout: default
 
 ## Currently working on
 
-Right now, I'm focusing on my new job which involves new technologies and languages, so no new projects in sight for now, but stay tune for any updates!
+Right now, I'm focusing I'm just focusing on my job, so no new projects in sight for now, but stay tune for any updates!
 
-## Puzzle tile game
+## Global Game Jam 2026
 
-This is a small project that I started last year with the goal to improve my algorithm and general C++ knowledge. I also wanted to implement a simple event based system in this game. IT is a very simple game: there are pieces of different colors randomnly generated in columns and pushed into the board. Whenever there are 2 or more pieces of the same color connected to each other (either verticaly or horizontaly) you can click on them to remove them from the board and gain points. The goal is to reach the number of points to advance to the next level before the board reaches the end of the platform.
-
-<p align="center">
-    <img src="https://github.com/iris-rod/portfolio/blob/master/img/ore_main.png?raw=true" width="45%"/>
-    <img src="https://github.com/iris-rod/portfolio/blob/master/img/ore_in_game.png?raw=true" width="45%"/>
-</p>
-
-Find more about this project on [Other Projects](https://iris-rod.github.io/portfolio/OtherProjects.html)!
-
-## Global Game Jam 2021
-
-"A game about a mustache trying to be reunited with his owner in a world were mustaches are illegal. OBJECTIVE: Help the mustache to be reunited with his owner: for this you need to find in which store in the town your owner is while avoid the BB (brigada do bigode or mustache’s patrol). To help you to identify the correct store your owner is in keep an eye on the mustachometer that indicates how close you are, get inside the store and be reunited with your maker."
+"You need to do what you must to survive in today's market. You found a rotting house on Idiotlista and now you're trying to flip it for as much money as you can get. But no one has time to actually fix the house up, just cover it up, no one will notice!"
 
 <p align="center">
-    <img src="https://github.com/iris-rod/portfolio/blob/master/img/cover_GGJ21.png?raw=true" width="50%"/>
+    <img src="https://github.com/iris-rod/portfolio/blob/master/img/Logo.png?raw=true" width="50%"/>
 </p>
 
 Find more about this project on [Other Projects](https://iris-rod.github.io/portfolio/OtherProjects.html)!
