@@ -6,7 +6,30 @@ layout: default
 
 ## Programming projects
 
-There are projects where my main role was as a programmer. Fortunatelly, I've done some projects where we had an artist, so the programmers could focus entirely on programming and nothing else. This are the projects I love doing the most, since I can improve my abilities, work in a group of people with different responsabilities and knowledge and learn from them.
+There are projects where my main role was as a programmer. Fortunatelly, I've done some projects where we had an artist, so the programmers could focus entirely on programming and nothing else. These are the projects I love doing the most, since I can improve my abilities, work in a group of people with different responsabilities and knowledge and learn from them.
+
+### Global Game Jam 2026 Participation
+
+"You need to do what you must to survive in today's market. You found a rotting house on Idiotlista and now you're trying to flip it for as much money as you can get. But no one has time to actually fix the house up, just cover it up, no one will notice!"
+
+<p align="center">
+    <img src="https://github.com/iris-rod/portfolio/blob/master/img/Logo.png?raw=true" width="45%"/>
+    <img src="https://github.com/iris-rod/portfolio/blob/master/img/HomeWreckoon1.png?raw=true" width="45%"/>
+</p>
+
+In this game you are a crafty rackoon that is a house flipper, you buy crappy looking houses for very low prices and then fix them up to re-sell at a higher price. However, your concept of fixing is a bit different from humans, or at least, any decent one. The way you fix the house is by covering up everything that is wrong with it by throwing anything you have on your garbage truck at it. The goal is to cover up, I mean, fix it as much as you can within the time limit to sell it at the highest price possible.
+
+After a few years without participating in a GGJ, this year I teamed up with some really cool people to get back into the GGJ spirit that I hadn't had in a while.
+Our team had 3 programmers (one of them was me), 2 artists and 1 sound artist. We had a very relaxed approach with this jam, since we're all older now, we can't keep up with all-nighters. But we still brought a lot of enthusiasm and it was a very fun weekend with everyone making this game!
+Since we were quite a few people, we first organised all of our ideas for mechanics, art, animations etc and then created a small board to keep track of our work throughout the weekend. My role was to implement a few of the mechanics:
+
+- Garbage scavenger - pick up random objects from the garbage truck. Each item had a probability of being picked up and obviously, the better the item the lower the probability of it dropping. The player could either do a quick search by pressing "E" or doing a longer search, called dumpster dive, to try to fetch better items by pressing and holding "E" for a bit. If the player did a dumpster dive, the probability weights were adapted to give higher weight to rarer items.
+- Feng Shui system - the player gets extra money for placing certain items at certain places in the house. I took advantage of the work one of our members did for the covering mechanism in which we used empty objects to detect when another object is colliding with it and trigger events when it happens. These events can then be used to trigger any behaviour we might need in those scenarios. For the Feng Shui, I simply reused those, added a tag to them and placed them in the house and called them Feng Shui Placements. Then in the manager class, where it is listening for those events that detect that the props collided with a placement, I created a map of pairs of props and placement tags with scores which I parse through to update the score if the prop and placement pair match one on the list.
+
+I also tried to have a nice looping effect on our background music where we would loop through the middle section of the song and when the timer was almost running out, change to the climax of the song. However, this still needs some improvement. It's working, but not as well as I would have liked it to be.
+
+You can check out our submission for the GGJ at [Global Game Jam 2026 submission page](https://globalgamejam.org/games/2026/home-wreckoon-ii-trash-pandemonium-9) or try it online through one of our members [itch.io link](https://antoniocpacheco.itch.io/home-wreckoon)
+
 
 ### Puzzle tile game
 
