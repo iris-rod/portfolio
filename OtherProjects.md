@@ -14,7 +14,6 @@ There are projects where my main role was as a programmer. Fortunatelly, I've do
 
 <p align="center">
     <img src="https://github.com/iris-rod/portfolio/blob/master/img/Logo.png?raw=true" width="45%"/>
-    <img src="https://github.com/iris-rod/portfolio/blob/master/img/HomeWreckoon1.PNG?raw=true" width="45%"/>
 </p>
 
 In this game you are a crafty rackoon that is a house flipper, you buy crappy looking houses for very low prices and then fix them up to re-sell at a higher price. However, your concept of fixing is a bit different from humans, or at least, any decent one. The way you fix the house is by covering up everything that is wrong with it by throwing anything you have on your garbage truck at it. The goal is to cover up, I mean, fix it as much as you can within the time limit to sell it at the highest price possible.
